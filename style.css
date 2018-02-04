@@ -228,3 +228,76 @@ h6, .h6 {
   padding: 15px;
 border:#DCDCDC 1px solid;
 }
+
+.blog-nav a {
+    margin: 8px;
+    color: #fff;
+}
+.blog-nav a:hover{
+  color:white !important;
+  background-color:#428bca !important ;
+  margin:6px;
+  border: 2px solid white !important;
+}
+.blog-nav a:focus{
+  color:white !important;
+  background-color:#428bca !important ;
+  margin:6px;
+  border: 2px solid white !important;
+}
+
+.post-thumb img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.comments{
+  border: 1px #ccc solid;
+  margin-bottom: 20px
+  padding:10px;
+  margin-top: 20px;
+}
+.comments h3, .comments h2{
+  background:#428bca;
+  color:#fff;
+  padding:5px;
+}
+
+.comment-body{
+  border:1px #ccc solid;
+  margin-bottom: 10px;
+  padding: 20px, 10px;
+}
+
+
+.comment-meta{
+  background: #428bca;
+  color:white;
+  padding: 10px;
+  overflow: auto;
+
+}
+
+.comment-meta a{
+  color:white;
+}
+
+.comment-meta img{
+  float:left;
+  margin-right: 10px;
+}
+.comment-reply-link{
+  background: #428bca;
+  color:white;
+  display: inline-block;
+  padding:10px 15px;
+
+}
+
+.comment-form input, .comment-form textarea{
+width: 100%;
+padding: 4px
+border 1px solid white;
+margin-bottom: 15px;
+}
